@@ -1,3 +1,42 @@
+# AIML Pac-Man Webapp Licensing terms
+
+Content in this repository is licensed under the terms described below.
+Different paths use different licenses. Contact Silicon Laboratories Legal
+if you have questions about redistribution.
+
+## Default license (Pac-Man web application)
+
+Unless otherwise noted, the Pac-Man web application source in this repository
+(including `index.html`, `css/`, `img/`, `sound/`, and Silicon Labs-modified
+game JavaScript under `js/`) is licensed under the GNU General Public License
+v3.0. The full text of the GPL-3.0 follows at the end of this file.
+
+This web application was adapted from
+https://github.com/luciopanepinto/pacman (GPL-3.0).
+
+## Third-party JavaScript under js/
+
+Some files under `js/` are third-party libraries and retain their original
+licenses as stated in their file headers. This includes, without limitation:
+
+* `js/jquery.js` — jQuery (MIT)
+* `js/jquery-buzz.js` — jQuery Buzz (MIT)
+* `js/jquery-mobile.js` — jQuery Mobile and bundled helpers (MIT; some
+  included snippets are dual-licensed MIT/GPL per their headers)
+
+## Firmware under firmware/
+
+Prebuilt firmware images and other files under `firmware/` are licensed by
+Silicon Laboratories Inc. under the Master Software License Agreement (MSLA):
+
+https://www.silabs.com/about-us/legal/master-software-license-agreement
+
+Those files are not licensed under the GPL-3.0. See `firmware/LICENSE`.
+The firmware is provided for convenience with this demo and can be used
+independently of the Pac-Man web page. To rebuild or modify the firmware,
+use the AI/ML SDK sample `aiml_ble_soc_audio_classifier_efr32_micriumos`.
+
+---
                     GNU GENERAL PUBLIC LICENSE
                        Version 3, 29 June 2007
 

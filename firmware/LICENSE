@@ -1,0 +1,15 @@
+# Firmware licensing terms
+
+Files under this `firmware/` directory (including prebuilt `.s37` images) are
+licensed by Silicon Laboratories Inc. under the Master Software License
+Agreement (MSLA):
+
+https://www.silabs.com/about-us/legal/master-software-license-agreement
+
+The prebuilt image is provided for convenience so you can run the BLE demo on
+a BRD2601 board. The firmware does not depend on the Pac-Man web page and can
+run independently.
+
+To rebuild or modify the firmware, use the AI/ML SDK sample
+`aiml_ble_soc_audio_classifier_efr32_micriumos` for `brd2601b` under the SDK
+license terms.
