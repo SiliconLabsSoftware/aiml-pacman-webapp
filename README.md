@@ -23,9 +23,9 @@ Follow the below steps to build the firmware:
 
 1. Install [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio)
    and the AI/ML extension using [Developing with Silicon Labs Machine Learning (AI/ML)](https://docs.silabs.com/machine-learning/latest/aiml-developing-with/).
-2. Create a new project from the example **AI/ML - BLE SoC Audio Classifier MicriumOS EFR32**
+2. Click on "RUN DEMO" under example **AI/ML - BLE SoC Audio Classifier MicriumOS EFR32**
    (`aiml_ble_soc_audio_classifier_efr32_micriumos`) and target **BRD2601B**.
-3. After the project generation, build to produce the firmware image.
+3. The firmware is then flashed on to the target.
 
 
 ## Changes

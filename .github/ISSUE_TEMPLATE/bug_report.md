@@ -13,7 +13,7 @@ A short, one-line description of the issue.
 - Browser and version (Chrome or Edge recommended):
 - Operating system:
 - Board (e.g. BRD2601):
-- Firmware (Built from AIML SDK sample):
+- Firmware (AIML SDK sample demo):
 - BLE client (browser Web Bluetooth, Simplicity Connect, nRF Connect, other):
 
 **Steps to reproduce (Mandatory)**  
