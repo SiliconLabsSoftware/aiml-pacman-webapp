@@ -50,7 +50,3 @@ terms.
   [GNU General Public License v3.0](LICENSE)
 - **Third-party JavaScript** under `js/` (for example jQuery components):
   original licenses in the file headers (MIT)
-
-The firmware is independent of this web page. Build or obtain firmware from
-the AI/ML SDK sample `aiml_ble_soc_audio_classifier_efr32_micriumos` under the
-SDK license terms.
