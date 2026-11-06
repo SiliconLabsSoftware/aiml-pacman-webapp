@@ -19,13 +19,14 @@ Simply double-click the `index.html` to view the webpage locally.
 
 ## Firmware
 
-A BRD2601 image is in this repo:
+Follow the below steps to build the firmware:
 
-`firmware/brd2601b/aiml_ble_soc_audio_classifier_efr32_micriumos.s37`
+1. Install [Simplicity Studio](https://www.silabs.com/developers/simplicity-studio)
+   and the AI/ML extension using [Developing with Silicon Labs Machine Learning (AI/ML)](https://docs.silabs.com/machine-learning/latest/aiml-developing-with/).
+2. Click on "RUN DEMO" under example **AI/ML - BLE SoC Audio Classifier MicriumOS EFR32**
+   (`aiml_ble_soc_audio_classifier_efr32_micriumos`) and target **BRD2601B**.
+3. The firmware is then flashed on to the target.
 
-Flash it with Simplicity Commander. To rebuild or modify the firmware, use the
-AI/ML SDK sample `aiml_ble_soc_audio_classifier_efr32_micriumos` for `brd2601b`.
-The firmware works with this web page over BLE and can run without it (VCOM / LEDs).
 
 ## Changes
 
@@ -49,9 +50,6 @@ terms.
   [GNU General Public License v3.0](LICENSE)
 - **Third-party JavaScript** under `js/` (for example jQuery components):
   original licenses in the file headers (MIT)
-- **Prebuilt firmware** under `firmware/`: Silicon Laboratories
-  [Master Software License Agreement (MSLA)](https://www.silabs.com/about-us/legal/master-software-license-agreement);
-  see [firmware/LICENSE](firmware/LICENSE)
 
 The firmware is independent of this web page. Build or obtain firmware from
 the AI/ML SDK sample `aiml_ble_soc_audio_classifier_efr32_micriumos` under the

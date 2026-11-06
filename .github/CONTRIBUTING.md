@@ -42,6 +42,3 @@ Contributions to the Pac-Man web application are licensed under the
 in that file).
 
 Third-party code under `js/` retains its original licenses (see file headers).
-Prebuilt firmware under `firmware/` is under the Silicon Labs MSLA; see
-[firmware/LICENSE](../firmware/LICENSE). Do not contribute firmware changes
-under GPL terms unless Legal has approved a different arrangement.

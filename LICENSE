@@ -24,17 +24,6 @@ licenses as stated in their file headers. This includes, without limitation:
 * `js/jquery-mobile.js` — jQuery Mobile and bundled helpers (MIT; some
   included snippets are dual-licensed MIT/GPL per their headers)
 
-## Firmware under firmware/
-
-Prebuilt firmware images and other files under `firmware/` are licensed by
-Silicon Laboratories Inc. under the Master Software License Agreement (MSLA):
-
-https://www.silabs.com/about-us/legal/master-software-license-agreement
-
-Those files are not licensed under the GPL-3.0. See `firmware/LICENSE`.
-The firmware is provided for convenience with this demo and can be used
-independently of the Pac-Man web page. To rebuild or modify the firmware,
-use the AI/ML SDK sample `aiml_ble_soc_audio_classifier_efr32_micriumos`.
 
 ---
                     GNU GENERAL PUBLIC LICENSE
